@@ -30,6 +30,12 @@ color: rgb(167, 167, 167);
 }
 
 /* classi */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .nav-brand {
     width: 30%;
 }
@@ -44,6 +50,7 @@ color: rgb(167, 167, 167);
     background-image: url(../img/banner.jpg);
     width: 100%;
     height: 600px;
+    padding: 10px;
     position: relative;
     margin-bottom: 10px;
 }
@@ -64,21 +71,56 @@ color: rgb(167, 167, 167);
     border-radius: 5px;
 }
 
-.main-article .col {
-    width: calc(100% / 3);
-    position: relative;
+.main-article {
+    margin: 0 -10px;
 }
 
-.main-article img {
-    max-width: 100%;
+.main-article .col {
+    width: 20%;
+    padding: 10px;
+    /* position: relative; */
+}
+
+.main-article .col-center {
+    width: 60%;
+    padding: 10px;
+}
+
+.main-article .col-center img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.main-article .col img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.col-text {
+    padding: 10px;
+}
+
+.col-text h5 {
+    padding-bottom: 10px;
 }
 
 .img-article {
     position: relative;
 }
 
+.footer-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     bottom: 0;
