@@ -110,6 +110,10 @@ color: rgb(167, 167, 167);
     padding-bottom: 10px;
 }
 
+.col-text p {
+    color: rgb(167, 167, 167);
+}
+
 .img-article {
     position: relative;
 }
